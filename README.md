@@ -22,3 +22,9 @@ RLight is a home lighting automation system solely based on cameras using deep r
 - The RL agent receives images and rewards and sends back switching commands
 - Since the agent only receives negative rewards maximizing those means converging to zero rewards
 - If the agent maximizez reward both the user interventions and power consumption is minimal
+
+## Tasks
+
+- Install Homebridge on the RPI
+- Install HomeScript to use Homebridge with Python
+- Control single light in intervals
