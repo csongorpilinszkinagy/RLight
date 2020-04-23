@@ -25,11 +25,15 @@ RLight is a home lighting automation system solely based on cameras using deep r
 
 ## Tasks
 
+- Create container for webcam capturing
 - Gather small resolution images using a webcam
 - Determine ideal reward amounts for elecrticity usage and user intervention
+- Create container for TensorFlow
 - Build an image stream processing neural network (possibly convolutional and LSTM layers)
-- Build a reinforcement learning agent
+- Create container for RL
+- Build a RL agent
 - Connect together the subsystems
+- Create Docker compose for the system
 - Install smart light in room
 - Control smart light with Phillips Hue Python API
 - Train network
