@@ -37,3 +37,8 @@ RLight is a home lighting automation system solely based on cameras using deep r
 - Install smart light in room
 - Control smart light with Phillips Hue Python API
 - Train network
+
+## Notes
+
+- If the agent fails to control the lights correctly, it is a 15 second interruption for the user. The value of that lost time is determined by the users hourly rate. For example this time is worth 4.17 cents at a 10 dollar an hour rate.
+- When the agent turns on the light it is consuming electricity. The cost of that is easily calculated using the cost of electricity. Lets take an example of a 20W LED light bulb. Each second the light is on the consumpption is 5,6 * 10^(-6) kWh, which is 5,6 * 10^(-5) cents at a 0.1 dollar per kWh electricity cost.
